@@ -12,6 +12,7 @@ URL:		http://savannah.nongnu.org/projects/exosip/
 Source0:	%{name}-%{version}-%{snap}.tar.bz2
 BuildRequires:	libosip-devel >= 2.2.0
 BuildRequires:	libtool
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Exosip is a library that hides the complexity of using the SIP protocol for
