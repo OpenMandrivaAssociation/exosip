@@ -30,7 +30,7 @@ Dynamic libraries from %name
 
 %package -n 	%{libname_devel}
 Summary: 	Header files and static libraries from %name
-Group: 		Development/Csnap
+Group: 		Development/C
 Requires: 	%{libname} = %{version}-%{release}
 Provides:	libexosip2-devel = %{version}-%{release}
 Provides: 	lib%{name}-devel = %{version}-%{release}
