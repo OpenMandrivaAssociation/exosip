@@ -10,7 +10,7 @@ License:	GPL
 Group:		System/Libraries
 URL:		http://savannah.nongnu.org/projects/exosip/
 Source0:	libeXosip2-%{version}.tar.gz
-BuildRequires:	libosip-devel >= 3.0.3
+BuildRequires:	libosip2-devel >= 3.0.3
 BuildRequires:	libtool
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
