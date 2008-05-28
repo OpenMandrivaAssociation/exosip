@@ -4,13 +4,13 @@
 
 Summary: 	Extended osip library
 Name: 	 	exosip
-Version:	3.0.3
+Version:	3.1.0
 Release: 	%mkrel 1
-License:	GPL
+License:	GPLv2+
 Group:		System/Libraries
 URL:		http://savannah.nongnu.org/projects/exosip/
-Source0:	libeXosip2-%{version}.tar.gz
-BuildRequires:	libosip2-devel >= 3.0.3
+Source0:	http://download.savannah.gnu.org/releases/exosip/libeXosip2-%{version}.tar.gz
+BuildRequires:	libosip2-devel >= %version
 BuildRequires:	libtool
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
@@ -48,14 +48,14 @@ Libraries and includes files for developing programs based on %name.
 
 %build
 
-%configure
+%configure2_5x
 
 %make
 
 %install
 rm -rf %{buildroot}
 
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf %{buildroot}
