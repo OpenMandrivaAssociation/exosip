@@ -11,6 +11,7 @@ Group:		System/Libraries
 URL:		http://savannah.nongnu.org/projects/exosip/
 Source0:	http://download.savannah.gnu.org/releases/exosip/libeXosip2-%{version}.tar.gz
 BuildRequires:	libosip2-devel >= %version
+BuildRequires:	openssl-devel
 BuildRequires:	libtool
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
@@ -47,7 +48,7 @@ Libraries and includes files for developing programs based on %name.
 %setup -q -n libeXosip2-%{version}
 
 %build
-
+export CFLAGS="%{optflags} -lssl -lcrypto"
 %configure2_5x
 
 %make
