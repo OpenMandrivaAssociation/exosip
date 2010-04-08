@@ -4,13 +4,13 @@
 
 Summary: 	Extended osip library
 Name: 	 	exosip
-Version:	3.2.0
-Release: 	%mkrel 3
+Version:	3.3.0
+Release: 	%mkrel 1
 License:	GPLv2+
 Group:		System/Libraries
 URL:		http://savannah.nongnu.org/projects/exosip/
 Source0:	http://download.savannah.gnu.org/releases/exosip/libeXosip2-%{version}.tar.gz
-Patch0:		exosip-3.2.0-str-fmt.patch
+Patch0:		exosip-3.3.0-str-fmt.patch
 BuildRequires:	libosip2-devel >= %version
 BuildRequires:	openssl-devel
 BuildRequires:	libtool
