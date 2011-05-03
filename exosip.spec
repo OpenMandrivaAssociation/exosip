@@ -5,7 +5,7 @@
 Summary: 	Extended osip library
 Name: 	 	exosip
 Version:	3.3.0
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 License:	GPLv2+
 Group:		System/Libraries
 URL:		http://savannah.nongnu.org/projects/exosip/
