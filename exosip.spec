@@ -1,4 +1,4 @@
-%define major	7
+%define major	10
 %define libname %mklibname exosip2_ %{major}
 %define devname %mklibname -d exosip2
 
