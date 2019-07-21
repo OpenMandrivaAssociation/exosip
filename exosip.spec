@@ -4,13 +4,12 @@
 
 Summary:	Extended osip library
 Name:		exosip
-Version:	4.0.0
-Release:	10
+Version:	5.1.0
+Release:	1
 License:	GPLv2+
 Group:		System/Libraries
 Url:		http://savannah.nongnu.org/projects/exosip/
-Source0:	http://download.savannah.gnu.org/releases/exosip/libeXosip2-%{version}.tar.gz
-Source1:	http://download.savannah.gnu.org/releases/exosip/libeXosip2-%{version}.tar.gz.sig
+Source0:	http://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(libosip2) >= %{version}
@@ -45,7 +44,7 @@ Libraries and includes files for developing programs based on %{name}.
 %setup -qn libeXosip2-%{version}
 
 %build
-%configure2_5x \
+%configure \
 	--disable-static
 
 %make
