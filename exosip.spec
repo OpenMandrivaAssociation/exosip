@@ -1,4 +1,4 @@
-%define major	10
+%define major	12
 %define libname %mklibname exosip2_ %{major}
 %define devname %mklibname -d exosip2
 
@@ -41,7 +41,7 @@ Obsoletes:	%{_lib}exosip2-devel < 3.6.0
 Libraries and includes files for developing programs based on %{name}.
 
 %prep
-%setup -qn libeXosip2-%{version}
+%setup -qn libexosip2-%{version}
 
 %build
 %configure \
