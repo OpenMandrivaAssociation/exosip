@@ -4,7 +4,7 @@
 
 Summary:	Extended osip library
 Name:		exosip
-Version:	5.1.0
+Version:	5.1.3
 Release:	1
 License:	GPLv2+
 Group:		System/Libraries
@@ -41,16 +41,16 @@ Obsoletes:	%{_lib}exosip2-devel < 3.6.0
 Libraries and includes files for developing programs based on %{name}.
 
 %prep
-%setup -qn libexosip2-%{version}
+%autosetup -n libexosip2-%{version} -p1
 
 %build
 %configure \
 	--disable-static
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README
