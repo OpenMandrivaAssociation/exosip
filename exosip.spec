@@ -1,4 +1,4 @@
-%define major	12
+%define major 12
 %define libname %mklibname exosip2_ %{major}
 %define devname %mklibname -d exosip2
 
@@ -12,7 +12,7 @@ Url:		http://savannah.nongnu.org/projects/exosip/
 Source0:	http://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(openssl)
-BuildRequires:	pkgconfig(libosip2) >= %{version}
+BuildRequires:	pkgconfig(libosip2)
 
 %description
 Exosip is a library that hides the complexity of using the SIP protocol for
