@@ -8,7 +8,7 @@ Version:	5.1.3
 Release:	2
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://savannah.nongnu.org/projects/exosip/
+Url:		https://savannah.nongnu.org/projects/exosip/
 Source0:	http://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(openssl)
