@@ -11,6 +11,11 @@ Group:		System/Libraries
 Url:		https://savannah.nongnu.org/projects/exosip/
 Source0:	http://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(libosip2)
 
