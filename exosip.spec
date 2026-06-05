@@ -5,7 +5,7 @@
 Summary:	Extended osip library
 Name:		exosip
 Version:	5.1.3
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		System/Libraries
 Url:		https://savannah.nongnu.org/projects/exosip/
