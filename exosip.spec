@@ -4,12 +4,12 @@
 
 Summary:	Extended osip library
 Name:		exosip
-Version:	5.1.3
-Release:	3
+Version:	5.3.0
+Release:	1
 License:	GPLv2+
 Group:		System/Libraries
 Url:		https://savannah.nongnu.org/projects/exosip/
-Source0:	http://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
+Source0:	https://download.savannah.nongnu.org/releases/exosip/libexosip2-%{version}.tar.gz
 
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -46,7 +46,7 @@ Obsoletes:	%{_lib}exosip2-devel < 3.6.0
 Libraries and includes files for developing programs based on %{name}.
 
 %prep
-%autosetup -n libexosip2-%{version} -p1
+%autosetup -n libexosip2-5.3.0 -p1
 
 %build
 %configure \
